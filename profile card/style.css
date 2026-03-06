@@ -1,0 +1,82 @@
+/* Page background */
+body{
+    background-color:#6c6fd8;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+/* Card box */
+.card{
+    background:white;
+    width:300px;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+
+    box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Profile image */
+.profile-image img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:5px solid #6c6fd8;
+}
+
+/* Name */
+h2{
+    margin:15px 0 5px;
+}
+
+/* Location text */
+.location{
+    color:gray;
+    font-size:14px;
+}
+
+/* Job description */
+.job{
+    font-size:14px;
+    margin-bottom:15px;
+}
+
+/* Buttons container */
+.buttons{
+    margin:15px 0;
+}
+
+/* Buttons style */
+button{
+    padding:10px 18px;
+    margin:5px;
+    border:none;
+    border-radius:8px;
+    background:#6c6fd8;
+    color:white;
+    cursor:pointer;
+}
+
+/* Button hover effect */
+button:hover{
+    background:#4a4dd1;
+}
+
+/* Skills section */
+.skills{
+    margin-top:20px;
+}
+
+/* Skill tags */
+.skills span{
+    display:inline-block;
+    background:#eee;
+    padding:5px 10px;
+    margin:5px;
+    border-radius:6px;
+    font-size:12px;
+}
